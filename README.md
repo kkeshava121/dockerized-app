@@ -14,13 +14,11 @@ project-raw/ │── backend/ # Flask Backend │ ├── app.py │ ├─�
 ---
 
 ## 🚀 **How to Run the Project**
-### 1️⃣ **Clone the Repository**
-
+1️⃣ **Clone the Repository**
 git clone https://github.com/kkeshava121/dockerized-app.git
 cd dockerized-app
 2️⃣ Build and Start Containers
 Run the following command to start the frontend and backend services:
-
 docker-compose up -d --build
 3️⃣ Verify Running Containers
 docker ps
